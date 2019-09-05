@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.exemplo.jdbc.join;
+package com.mycompany.universidade.jdbc.join;
 
 /**
  *
- * @author gustavo
+ * @author Estudante
  */
-public class Cidade {
+public class Disciplina {
     private Integer id;
-    private String nome;
-    private UF uf;
+    private String descricao;
 
     public Integer getId() {
         return id;
@@ -22,19 +21,11 @@ public class Cidade {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public UF getUf() {
-        return uf;
-    }
-
-    public void setUf(UF uf) {
-        this.uf = uf;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }
